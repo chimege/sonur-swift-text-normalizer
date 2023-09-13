@@ -1,0 +1,23 @@
+{
+    "default_options": {
+      "split_sentences": true,
+      "abbreviation_level": "abbreviation",
+      "read_symbols": "no_temdegt",
+      "read_emojis": true,
+      "use_phonemizer": true,
+      "dont_read_number_n": false,
+      "read_legal_number": false,
+      "read_roman_number": false,
+      "number_chunker": "default",
+      "read_balarhai_egshig_clearly": false,
+      "soft_threshold": 150,
+      "hard_threshold": 300
+    },
+    "initial_config": {
+      "noun_conj": "noun_conj.json",
+      "symbols_file": "symbols.json",
+      "abbreviation_file": "mongolian_abbreviations.csv",
+      "emoji_list": "emoji_list.json"
+    }
+}
+  
